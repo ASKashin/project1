@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+td {
+    border: 1px solid black;
+}
+th {
+    border: 1px solid black;
+}
+.tbody {
+text-align: center;
+}
+.thead {
+    text-align: center;
+}
