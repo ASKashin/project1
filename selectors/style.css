@@ -1,0 +1,15 @@
+li{
+    color: black;
+}
+/* :nth-child(выбор even четные odd нечетные) */
+/* .aaa > li:first-child + li - выбрать следующий элеиент через обращение к первому */
+
+.aaa > li:first-child + li{
+    color: red;
+}
+input{
+    color: green;
+}
+input[type="text"]{
+    color: red;
+}

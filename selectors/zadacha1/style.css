@@ -1,0 +1,104 @@
+/* 19 */
+/* .test.hello{
+    color: red;
+} */
+
+/* 20 */
+/* p.test.hello{
+    color: red;
+} */
+
+/* 21 */
+/* h2.test.hello.eee{
+    color: red;
+} */
+
+/* 22 */
+/* p>i{
+    color: red;
+} */
+
+/* 23 */
+/* ul>li{
+    color: red;
+} */
+
+/* 24 */
+/* p>a , a.test {
+    color: red;
+} */
+
+/* 25  */
+/* b+i{
+    color: red;
+} */
+
+/* 26 */
+/* #test b+i{
+    color: red;
+} */
+
+/* 27 */
+/* ul + p a {
+    color: red;
+} */
+
+/* 28 */
+/* h1 ~ p{
+    color: red;
+} */
+
+/* 29 */
+/* #test h2 ~ p{
+    color: red;
+} */
+
+/* 30 */
+/* * {
+    color: red;
+} */
+
+/* 31 */
+/* p * i {
+    color: red;
+} */
+
+/* 32 */
+/* [title] {
+    color: red;
+} */
+
+/* 33 */
+/* p[title] {
+    color: red;
+} */
+
+/* 34 */
+/* p[title="привет"]{
+    color: red;
+} */
+
+/* 35 */
+/* a[href ^="http://"]{
+    color: red;
+} */
+
+/* 36 */
+/* a[href $=".html"]{
+    color: red;
+} */
+
+/* 37 */
+/* p[title *="привет"]{
+    color: red;
+} */
+
+/* 38 */
+/* p[class ^="top"]{
+    color: red;
+} */
+
+
+
+
+

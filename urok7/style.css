@@ -1,0 +1,50 @@
+/* 1 */
+/* div p{
+    color: red;
+} */
+
+/* 2 */
+/* div h2{
+    color: red;
+}
+#test1 p{
+    color: red;
+} */
+
+/* 6 */
+/* #test1 .bbb {
+color: red;
+} */
+
+/* 7 */
+/* p.bbb{
+    color: red;
+} */
+
+/* 8 */
+/* h2.xxx{
+    color: red;
+} */
+
+/* 9 */
+/* #test1 p.bbb{
+    color: red;
+} */
+
+/* 10 я еблан))думал что через запятую слишком просто былобы)) */
+/* .bbb, .xxx{
+    color: red;
+} */
+
+/* 11 */
+/* тоже самое что и в 10 я так думаю */
+
+/* 12 */
+/* #test1 p.bbb,#test1 p.xxx{
+    color: red;
+} */
+
+/* 13 */
+/* .fff *{
+    color: red;
+} */
