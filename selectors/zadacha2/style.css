@@ -1,11 +1,72 @@
+
+
+/* 39 */
+/* li {
+    border: 1px solid blue;
+    list-style-position:inside;
+    width: 150px;
+    margin: 10px;
+}
+li:hover + li {
+    background: red;
+    color: white;
+}
+li:hover {
+    background: green;
+    color: white;
+} */
+
+/* 40 */
+/* li {
+    border: 1px solid blue;
+    list-style-position:inside;
+    width: 150px;
+    margin: 10px;
+}
+li:hover + li + li {
+    background: red;
+    color: white;
+}
+li:hover {
+    background: green;
+    color: white;
+} */
+
+/* 41 */
+/* li {
+    border: 1px solid blue;
+    list-style-position:inside;
+    width: 150px;
+    margin: 10px;
+}
+li:hover ~ li {
+    background: red;
+    color: white;
+}
+li:hover {
+    background: green;
+    color: white;
+} */
+
+/* 42 */
+
 li {
     border: 1px solid blue;
     list-style-position:inside;
     width: 150px;
-    background: green;
     margin: 10px;
 }
-li:hover {
+li:hover ~ li {
     background: red;
     color: white;
+    
 }
+li:hover {
+    background: green;
+    color: white;
+}
+
+
+
+
+
