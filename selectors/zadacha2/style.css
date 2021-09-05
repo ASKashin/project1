@@ -1,0 +1,11 @@
+li {
+    border: 1px solid blue;
+    list-style-position:inside;
+    width: 150px;
+    background: green;
+    margin: 10px;
+}
+li:hover {
+    background: red;
+    color: white;
+}
