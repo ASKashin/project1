@@ -50,13 +50,13 @@ li:hover {
 
 /* 42 */
 
-li {
+/* li {
     border: 1px solid blue;
     list-style-position:inside;
     width: 150px;
     margin: 10px;
 }
-li:hover ~ li {
+li:hover ~ li:not(:last-child) {
     background: red;
     color: white;
     
@@ -64,8 +64,26 @@ li:hover ~ li {
 li:hover {
     background: green;
     color: white;
-}
+    cursor: pointer;
+} */
 
+/* 43 */
+li {
+    border: 1px solid blue;
+    list-style-position:inside;
+    width: 150px;
+    margin: 10px;
+}
+li:hover ~ li:nth-child(odd) {
+    background: red;
+    color: white;
+    
+}
+li:hover {
+    background: green;
+    color: white;
+    cursor: pointer;
+}
 
 
 
