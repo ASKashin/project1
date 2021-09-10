@@ -6,6 +6,10 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 a {
     color: #000;
     display: inline-block;
@@ -30,6 +34,7 @@ li {
 
 .header {
     background-color: #e8ebf1;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.07);
 }
 
 .header__inner {
@@ -42,7 +47,6 @@ li {
 .header__logo a {
     color: #2aacc8;
     font-size: 50px;
-    font-family: 'Lato', sans-serif;
     font-weight: 400;
 }
 
@@ -131,17 +135,19 @@ li {
 .header__drop-down>a::after {
     content: "";
     position: absolute;
-    background-image: url(image/arrow.png);
+    background-image: url(../image/arrow.png);
     width: 7px;
     height: 5px;
     right: 8px;
     top: 15px;
 }
+
 .header__drop-down.drop-down:hover .drop-down__list {
     height: auto;
     overflow: visible;
     opacity: 1;
     transition: all .3s;
+    z-index: 10;
 }
 
 .header__drop-down.drop-down:hover>a {
@@ -149,4 +155,47 @@ li {
     border-top: 5px solid #2aacc8;
     background-color: #fff;
     transition: all .3s;
+}
+
+.slider {
+    background-color: #81e4ed;
+    padding: 20px 0px 10px;
+}
+
+.slider__item {
+    background-image: url(../image/slider-bg.jpg);
+    min-height: 440px;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider__item-title {
+    font-size: 50px;
+    color: #fff;
+    width: 300px;
+    margin-left: 60px;
+    font-weight: 700;
+    padding-top: 90px;
+}
+
+.slick-dots li button {
+    width: 14px;
+    height: 14px;
+    background-color: rgba(98, 98, 98, .5);
+    border-radius: 50%;
+}
+
+.slick-dots li.slick-active button {
+    background-color: #fff;
+}
+
+.slick-dots li button::before {
+    display: none;
+}
+
+.slick-dots li {
+    margin: 0 9px;
+    width: auto;
+    height: auto;
 }
